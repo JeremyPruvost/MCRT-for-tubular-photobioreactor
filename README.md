@@ -12,8 +12,8 @@ Matlab code for light transfer modeling in tubular photo(bio)reactors using Mont
 This code enables calculation of the light radiation field inside tubular photo(bio)reactors geometries. It has set for solar conditions, considering possibilities of non-normal incidence, various inclination and orientation toward the sun, and direct and diffuse light.
 
 Main codes are: 
-•	Main_MCRT_TubePBR_Collimated.m : main code for MCRT for light transfer prediction in tubes - Case of collimated (direct) part of the sunlight
-•	Main_MCRT_TubePBR_Diffuse.m: main code for MCRT for light transfer prediction in tubes - Case of diffuse part of the sunlight
+-	Main_MCRT_TubePBR_Collimated.m : main code for MCRT for light transfer prediction in tubes - Case of collimated (direct) part of the sunlight
+-	Main_MCRT_TubePBR_Diffuse.m: main code for MCRT for light transfer prediction in tubes - Case of diffuse part of the sunlight
 Other codes are subroutines. 
 
 
