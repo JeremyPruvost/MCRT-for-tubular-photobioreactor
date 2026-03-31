@@ -1,10 +1,8 @@
 # MCRT-for-tubular-photobioreactor
 Matlab code for light transfer modeling in tubular photo(bio)reactors using Monte Carlo Ray Tracing
 
-IMPORTANT NOTE (17Sept2025): The Full code will be made available once the related publication will be accepted (under review)
-
 %%%% J.Hoengies, J.Pruvost (Nantes University, UCLA)
-%%%% Version : 17 sept. 2025
+%%%% Version : 23 March 2026
 
 %%%% The Matlab version must support the use of parfor for parallel
 %%%% calculation. If not the case, parfor will have to be replace by common
@@ -29,4 +27,10 @@ Those values allows further calculation such as:
 -	extension to locations/periods of the year (by using appropriate values of sunlight received using for example solar database). 
 Note that calculations are made for 3 grids refinements (the mean value being defined in Grid), to check dependency of the prediction to the number of rays (Nrays) used in MCRT method.
 
-For more details, see ????
+For more details, see 
+
+J. Hoeniges, L. Pilon, J. Dauchet, J. Pruvost, Light transfer investigation in solar tubular photobioreactors using Monte Carlo ray tracing, Chemical Engineering Journal Advances, Volume 26,
+2026. https://doi.org/10.1016/j.ceja.2026.101081.
+Abstract: Tubular photobioreactors (PBRs) are widely used for microalgae solar culture. In such geometry, light transfer is rendered complex by the effects of refractive index mismatches across curved air/glass/culture interfaces. This study aims to develop an open source code implementing the Monte Carlo ray-tracing (MCRT) method and to identify the design rules to optimize light transfer in tubular PBRs. The light transfer model accounted for the tube wall thickness, the angle of the collimated and diffuse incident solar radiation, the multiple reflections and refractions at interfaces, and anisotropic scattering and absorption by the microalgae cells. The importance of the dimensionless optical thickness of the suspension and of the tube thickness normalized by the outer tube radius in determining the radiation field was demonstrated. The concave tube wall was responsible for light concentration and a normalized tube thickness in the range 0.2–0.4 was found to be optimum to increase photon flux in the culture by up to 42 % and the biomass productivity by 60 % compared to very thin tube thickness. Furthermore, due to the effect of curved optical surfaces, the conditions for maximum growth rate were different from those for full light absorption without dark volume, by contrast with flat panel PBRs. Predictions for several PBR configurations confirmed the usefulness of our MCRT method as a generic tool to predict performances of solar tubular PBRs. For example, an increase of 60 % in maximum biomass concentration was obtained with vertical inclination of PBR tubes compared to horizontal inclination, but with an increase in light stressing conditions.
+Keywords: Modeling; Photobioreactors; Tubular; Microalgae; Light transfer; Ray-tracing
+
